@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+.table {
+  width: 70%;
+  margin: 10px auto;
+  border-radius: 2px;
+  margin-bottom: 200px;
+}
+
+.table-icon {
+  color: rgba(255, 255, 255, 0.727);
+}
+
+.text {
+  color: rgb(0, 104, 173);
+}
+
+.mail-btn {
+  background: linear-gradient(
+    135deg,
+    rgba(31, 116, 226, 0.72) 0%,
+    rgba(61, 227, 242, 0.444) 100%
+  );
+
+  padding: 1px;
+  width: 60px;
+  border-radius: 2px;
+}
+
+.add-mes {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  width: 100%;
+  padding: 5px;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  border-radius: 2px;
+}
+.mail-icon {
+  color: rgba(255, 255, 255, 0.944);
+}
+
+.find-partner {
+  background-image: url(../assets/images/partners.png);
+  background-size: cover;
+  backdrop-filter: blur(20px);
+  width: 100%;
+  height: 150px;
+  margin: 10px auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  h1 {
+    text-align: center;
+    padding: 30px;
+    font-size: 60px;
+    font-family: "Rubik Dirt", system-ui;
+  }
+}
+
+.join-btn {
+  background: linear-gradient(
+    135deg,
+    rgba(249, 174, 18, 1) 0%,
+    rgba(232, 242, 61, 1) 100%
+  );
+  border-radius: 4px;
+  color: white;
+  padding: 3px;
+  width: 100px;
+}
+
+.navbar {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+@media only screen and (max-width: 800px) {
+  .find-partner h1 {
+    font-size: 40px;
+    padding: 70px;
+    color: rgb(235, 205, 6);
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .find-partner h1 {
+    font-size: 25px;
+    padding: 110px;
+    color: rgb(235, 205, 6);
+  }
+}

@@ -1,9 +1,15 @@
-# React + Vite
+# THE TRAVELER
+#### Travel Hub App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Visit the app here =>> [TRAVELER](https://bank-app11.netlify.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# trv
+
+![Alt text](./src/assets/images/sc1.png)
+![Alt text](./src/assets/images/sc2.png)
+![Alt text](./src/assets/images/sc3.png)
+![Alt text](./src/assets/images/sc4.png)
+![Alt text](./src/assets/images/sc5.png)
+
+
+

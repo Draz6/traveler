@@ -1,0 +1,49 @@
+#contanier {
+  /*background-color: rgb(98, 0, 255);*/
+  height: 100px;
+  box-shadow: rgba(104, 104, 104, 0.59) 30px 5px 20px;
+  background-color: rgba(255, 255, 255, 0.117);
+  backdrop-filter: blur(2px);
+}
+#footerList {
+  display: flex;
+  justify-content: center;
+}
+#socialIcons li {
+  list-style-type: none;
+  margin: 10px;
+  color: rgb(58, 0, 184);
+  font-weight: "bold";
+}
+#socialIcons li a {
+  text-decoration: none;
+  color: white;
+}
+p {
+  text-align: center;
+  color: white;
+}
+#socialIcons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#socialIcons a {
+  width: 15px;
+  height: 15px;
+  color: rgb(255, 255, 255);
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#socialIcons a .footer:hover {
+  background-color: white;
+  color: rgb(119, 14, 238);
+  opacity: 0.9;
+}
+#line {
+  width: 100%;
+  border-bottom: rgba(197, 197, 197, 0.574) 1px solid;
+}
+#copy {
+  margin-top: 5px;
+}

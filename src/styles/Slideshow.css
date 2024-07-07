@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Bowlby+One+SC&family=Protest+Guerrilla&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+body {
+  background-color: #1b2631;
+}
+.slide-container {
+  position: relative;
+}
+.traveler {
+  width: 400px;
+  height: 500px;
+  position: absolute;
+  bottom: 0px;
+  left: 40%;
+  margin: 10px auto;
+}
+
+.slide-container .startBtn {
+  background-color: aliceblue;
+  background-size: "contain";
+}
+.logo-div {
+  color: white;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  font-family: "Rubik Dirt", system-ui;
+  font-size: 15px;
+  left: 50px;
+}
+
+.logo-div img {
+  width: 50px;
+  height: 70px;
+  opacity: 0.5;
+}

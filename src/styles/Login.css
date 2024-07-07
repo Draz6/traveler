@@ -1,0 +1,16 @@
+.body {
+  background-color: #1b2631;
+}
+div #formMain {
+  background-image: url("../assets/images/background.jpg");
+  background-size: cover;
+  height: 850px;
+  position: relative;
+  bottom: 45px;
+}
+#span {
+  color: rgb(255, 28, 104);
+}
+.span {
+  color: rgb(255, 28, 104);
+}
