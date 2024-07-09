@@ -2,8 +2,9 @@
 
 #containerDiv {
   display: flex;
-  margin-bottom: 100px;
+  margin-bottom: 100px ;
 }
+
 #cardsDiv {
   display: inline-block;
   margin: 30px;
