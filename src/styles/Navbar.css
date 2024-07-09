@@ -12,8 +12,8 @@
 }
 
 #navList {
-  display: flex;
-  flex-direction: column;
+  display: flex !important;
+  flex-direction: column ;
   font-family: "Josefin Sans", sans-serif;
 }
 
