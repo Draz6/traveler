@@ -41,7 +41,7 @@ function Row(props) {
         </TableCell>
         <TableCell>
           {" "}
-          <Avatar>
+          <Avatar className="list-img">
             {" "}
             <img className="img" src={row.imgURL} alt="" />
           </Avatar>

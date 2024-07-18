@@ -44,7 +44,7 @@ export default function Trips() {
           {isLoading ? (
             <div className="loading">
               <img src={loading} alt="" />
-              Loading…
+            
             </div>
           ) : (
             <div>

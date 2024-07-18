@@ -13,6 +13,8 @@ import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import "../styles/Login.css";
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 const defaultTheme = createTheme();
 
@@ -52,7 +54,12 @@ export default function SignUp() {
     return false;
   }
   return (
-    <div id="formMain">
+    <div className="body">
+      <div className="navbar">
+        <Navbar />
+      </div>
+    <div id="formMain" >
+      
       <ThemeProvider theme={defaultTheme}>
         <Container component="main" maxWidth="xs">
           <CssBaseline />
@@ -127,6 +134,9 @@ export default function SignUp() {
           </Box>
         </Container>
       </ThemeProvider>
+      
+    </div>
+    <Footer />
     </div>
   );
 }

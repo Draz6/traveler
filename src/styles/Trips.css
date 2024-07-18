@@ -20,13 +20,14 @@
   box-shadow: rgb(0, 0, 0) 15px 15px 15px;
   background-color: rgba(230, 231, 234, 0.15);
   border-radius: 10px;
+  position: relative;
 }
 
 #userCard img {
   background-image: url(../img/person.jpg);
   background-size: cover;
   width: 230px;
-  height: 210px;
+  height: 230px;
   border-radius: 12px;
 }
 #userCard:hover {
@@ -38,14 +39,11 @@ h2 {
   width: 98%;
   font-family: "Josefin Sans", sans-serif;
   margin-left: 3px;
-}
-h5 {
+  margin-bottom: 0px;
+  padding-bottom: 5px;
   font-size: 15px;
-  color: rgb(145, 145, 145);
 }
-h5 .icon {
-  color: crimson;
-}
+
 h6 {
   position: absolute;
   left: 11px;
@@ -56,67 +54,39 @@ h6 .icon {
   color: cornflowerblue;
   font-size: 16px;
 }
-#sideBar {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-}
-.logOut {
-  position: relative;
-  left: 93.5%;
-  margin-bottom: 5px;
-  text-decoration: none;
-  background-color: rgb(235, 66, 99);
-  color: white;
-  top: 5px;
-}
-.logOut .logOutIcon {
-  width: 19px;
-  height: 14px;
-}
-.logOut:hover {
-  background-color: rgb(223, 27, 67);
-}
+
 .brand {
   color: rgb(211, 211, 211);
+  font-size: 12px;
 }
 .icon1 {
   color: rgb(190, 126, 255);
+  
+  
 }
 
 .price {
   color: rgba(178, 247, 205, 0.717);
-}
-.model {
-  color: rgba(255, 255, 255, 0.548);
+  position: absolute;
+  top: 305px;
+  left: 5px;
+  font-size: 17px;
+  
 }
 
-.add-to {
+.loading{
+  width: 100%;
+  height: 800px;
+   color: white;
   display: flex;
-  justify-content: space-between;
-  padding: 5px;
-}
+  justify-content: center;
+  align-items: center;
 
-.add-btn {
-  background: radial-gradient(
-    circle,
-    rgba(255, 97, 180, 1) 0%,
-    rgba(255, 23, 176, 1) 35%,
-    rgba(252, 31, 76, 1) 100%
-  );
-  padding: 2px;
-  padding-left: 5px;
-  padding-right: 5px;
-  color: white;
-  border-radius: 3px;
+}
+.loading img{
   width: 80px;
-  z-index: 1;
-}
-
-.loading {
-  margin: 10px auto;
-  width: 100px;
-  height: 100px;
+  height: 80px;
+ 
 }
 .rating {
   margin-left: 4px;
@@ -124,6 +94,7 @@ h6 .icon {
 .category {
   color: #7f7c7c;
   margin-left: 7px;
+  font-size: 10px;
 }
 
 .navbar {

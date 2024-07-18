@@ -8,7 +8,7 @@ const header = {
   textAlign: "center",
   position: "absolute",
   marginLeft: "550px",
-  top: "20px",
+  bottom: "300px",
   fontSize: "180px",
   fontFamily: "Anton SC, sans-serif",
 };
@@ -16,10 +16,11 @@ const p = {
   color: "white",
   textAlign: "center",
   position: "absolute",
-  top: "50px",
+  top: "30px",
   left: "45%",
-  fontSize: "20px",
+  fontSize: "18px",
   zIndex: "1",
+  
 };
 const startBtn = {
   color: "white",
@@ -30,19 +31,19 @@ const startBtn = {
   padding: "10px",
   width: "350px",
   borderRadius: "5px",
-  opacity: "1",
-  zIndex: "1",
+  zIndex: "2",
   fontWeight: "bolder",
-
+  border:"none",
   background:
     "radial-gradient(circle, rgba(255,97,180,1) 0%, rgba(255,23,176,1) 35%, rgba(252,31,76,1) 100%)",
 };
 
 const line = {
-  width: "100%",
+  width: "99.5%",
   height: "120px",
   position: "absolute",
   bottom: "0px",
+  zIndex: "1",
   background:
     "linear-gradient(180deg, rgba(255,97,180,0) 0%, rgba(0,0,0,1) 100%)",
 };
@@ -53,10 +54,11 @@ const divStyle = {
   alignItems: "center",
   justifyContent: "center",
   backgroundSize: "5PX",
-  height: "700px",
+  height: "720px",
   width: "95%",
   zIndex: "-1",
   left: "39px",
+ 
 };
 const slideImages = [
   {
@@ -133,8 +135,8 @@ export default function Slideshow() {
           {" "}
           <button style={startBtn}>GET STARTED</button>
         </a>
-        <div style={line}></div>
-      </div>
+       
+      </div> <div style={line}></div>
     </>
   );
 }

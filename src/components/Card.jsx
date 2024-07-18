@@ -12,7 +12,7 @@ export default function Card(props) {
         <img src={pic} alt="user-photo" />
         <h2>{name}</h2>
         <span className="brand">
-          <RoomIcon className="icon1" /> {city}
+          <RoomIcon className="icon1" sx={{ fontSize: 15 }} /> {city}
         </span>
 
         <div className="rating">
@@ -26,9 +26,7 @@ export default function Card(props) {
           </Stack>
         </div>
         <div className="category">{category}</div>
-        <div className="add-to">
-          <h3 className="price">{price}</h3>
-        </div>
+        <h3 className="price">{price}</h3>
       </div>
     </>
   );
