@@ -2,7 +2,7 @@
 #### Travel Hub App
 
 
-Visit the app here =>> [TRAVELER](https://bank-app11.netlify.app)
+Visit the app here =>> [TRAVELER](https://traveler11.netlify.app)
 
 
 ![Alt text](./src/assets/images/sc1.png)
